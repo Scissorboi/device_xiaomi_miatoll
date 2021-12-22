@@ -130,8 +130,8 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-str
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
-TARGET_KERNEL_CONFIG := vendor/miatoll-perf_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/miatoll
+TARGET_KERNEL_CONFIG := cust_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6250
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll

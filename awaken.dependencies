@@ -1,9 +1,9 @@
 [
     {
         "remote":       "github",
-        "repository":   "BladeRunner-A2C/msm-4.14-miatoll",
+        "repository":   "ArrowOS-Devices/android_kernel_xiaomi/sm6250",
         "target_path":  "kernel/xiaomi/miatoll",
-        "branch":       "sapphire"
+        "branch":       "arrow-12.0"
     },
     {
         "remote":       "github",
